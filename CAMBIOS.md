@@ -9,7 +9,7 @@ Carpeta de imágenes: `img/`.
 
 ### 1. Reducir altura del banner y carrusel automático
 
-**Prompt (mensaje de Daniel):**
+**Prompt (mensaje del cliente):**
 > Está mejor. Ahora hay que reducir la altura de las imágenes del banner principal y quitarle esos botones de flechas y pausar y que automáticamente se pasen las imágenes
 
 **Cambios:**
@@ -21,11 +21,11 @@ Carpeta de imágenes: `img/`.
 
 ### 2. Reclamo: "las imágenes no se pasan automáticamente y se ven con mucho grosor"
 
-**Prompt (conversación reenviada de Victorino):**
+**Prompt (conversación reenviada del cliente):**
 > Las imágenes no se están pasando de forma automática y, de igual forma, las estoy viendo con mucho grosor. No sé si lo revisas antes de indicarlo.
 
 **Verificación:** probado en Chrome headless con capturas a 1,5 s, 4,5 s y 7,5 s: el carrusel sí cambia de slide (1 → 2 → 3) y no hay errores de JavaScript.
-**Conclusión:** como Daniel mencionó flechas y pausa que este archivo no tiene, lo más probable es que estuvieran viendo otra copia (hosting, archivo viejo o caché). Hay que asegurarse de que vean ESTA versión.
+**Conclusión:** como el cliente mencionó flechas y pausa que este archivo no tiene, lo más probable es que estuvieran viendo otra copia (hosting, archivo viejo o caché). Hay que asegurarse de que vean ESTA versión.
 
 ### 3. Título más delgado y con letras separadas
 
@@ -46,6 +46,6 @@ Carpeta de imágenes: `img/`.
 
 ## Pendiente / notas para continuar
 
-- Confirmar con Daniel/Victorino dónde ven la página (URL o archivo enviado) y subir esta versión ahí.
+- Confirmar con el cliente dónde ven la página (URL o archivo enviado) y subir esta versión ahí.
 - Si quieren el banner aún más bajo, el siguiente paso es reducir el tamaño del título (`text-4xl sm:text-5xl lg:text-[3.1rem]`).
 - Los prompts de sesiones anteriores a esta no quedaron registrados aquí.
