@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/", "destination": "/metrix_v1.html" }]
+}
